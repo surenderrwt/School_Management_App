@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :teachers
+  resources :students
   get 'pages/index'
   get 'pages/about'
   get 'pages/contact'
